@@ -16,8 +16,6 @@ export default StyleSheet.create({
     backgroundColor: '#fff',
     marginHorizontal: 10,
     marginVertical: 5,
-   // paddingVertical: 5,
-    // paddingHorizontal: 15,
     width: window.width - 30,
   },
   logo: {
@@ -26,16 +24,7 @@ export default StyleSheet.create({
     marginBottom: 20,
     padding:10,
     marginTop:20
-  },
-  register:{
-    marginBottom:20, 
-    width:window.width -100,
-    alignItems:'center',
-    justifyContent:'center',
-    height:50,
-    backgroundColor: '#ffae',},
-
-    introPageButton: {
+  }, introPageButton: {
       flexDirection: 'row',
       justifyContent: 'center',
       alignItems: 'center',
@@ -51,7 +40,6 @@ export default StyleSheet.create({
     introPageButtonBox: {
       flexDirection: 'row',
       justifyContent: 'space-between',
-      //marginTop: postSpaceHeight * 0.27,
       marginBottom: 20,
     },
     multiLineinput:{
@@ -60,10 +48,7 @@ export default StyleSheet.create({
       marginHorizontal: 10,
       marginVertical: 5,
       textAlignVertical:'top',
-     // paddingVertical: 5,
-      // paddingHorizontal: 15,
       width: window.width - 30,
-
     }
 });
 
